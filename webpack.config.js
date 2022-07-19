@@ -1,6 +1,6 @@
 module.exports = {
-  entry: "index.js",
-  output: { path: __dirname, filename: "bundle.js" },
+  entry: "./src/index.js",
+  output: { path: __dirname + '/dest', filename: "bundle.js" },
   module: {
     rules: [
       {
