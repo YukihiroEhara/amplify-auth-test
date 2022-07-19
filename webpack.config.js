@@ -1,3 +1,5 @@
+console.log('通ってる？')
+
 module.exports = {
   entry: "./src/index.js",
   output: { path: __dirname + '/dest', filename: "bundle.js" },
